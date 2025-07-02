@@ -4,8 +4,6 @@
 ## Overview
 This repository contains a prototype implementation for an AI-driven web automation solution developed for the CloudEagle AI PM Intern assignment. The solution automates user management tasks (data scraping, provisioning, and deprovisioning) for SaaS applications without APIs, such as HubSpot, using Playwright for browser automation and LangChain for AI-driven UI navigation.
 
-The primary deliverable is a 3-5 page PDF document (submitted separately via Google Form), which details the problem, research, proposed solution, and scalability considerations. This repository provides the optional pseudocode/prototype to demonstrate the technical approach.
-
 ## Features
 - **User Data Scraping**: Extracts user details (names, emails, roles, last login) from SaaS admin portals, handling pagination and dynamic UIs.
 - **Provisioning/Deprovisioning**: Automates user creation and removal via form interactions.
@@ -26,7 +24,7 @@ The primary deliverable is a 3-5 page PDF document (submitted separately via Goo
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/AI-Web-Automation-Assignment.git
+   git clone https://github.com/nageshkharat/AI-Web-Automation-Assignment.git
    cd AI-Web-Automation-Assignment
    ```
 2. Install dependencies:
@@ -47,7 +45,7 @@ The primary deliverable is a 3-5 page PDF document (submitted separately via Goo
    python scraper.py
    ```
    - The script launches a headless Chromium browser, logs into the SaaS portal, scrapes user data, and simulates provisioning tasks.
-   - Output: User data as JSON (e.g., `[{"name": "John Doe", "email": "john@doe.com", ...}]`).
+   - Output: User data as JSON (e.g., `[{"name": "nk", "email": "nk@gmail.com", ...}]`).
 2. Testing:
    - The script uses mock credentials for ethical reasons. For real SaaS apps, update credentials and handle MFA/CAPTCHA as described in the PDF.
 3. Customization:
